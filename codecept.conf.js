@@ -20,5 +20,10 @@ exports.config = {
   include: {
     I: './steps_file.js'
   },
-  name: 'desafio6'
+  name: 'desafio6',
+  plugins: {
+    allure: {
+      enabled: true
+    }
+  }
 }
